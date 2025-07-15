@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Visualizing a Premier League Season 23-24</title>
+  <!-- D3.js and Vega-Lite -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <!-- Chart.js for bar charts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>
+      <a href=".">
+        <img src="Premier_League_3D_logo.webp" alt="EPL Logo" class="logo">
+      </a>
+    </h1>
+    <h2>Experience Manchester City's Historic Four-Year Championship Run</h2>
+  </header>
+
+  <!-- Scrolling Section: Text & Line Graph -->
+  <div class="scroll-container">
+    <div class="text-sections">
+      <section class="text-content" id="section1">
+        <!-- <h2>Introduction</h2> -->
+
+        <h2>Setting the Stage for History</h2>
+
+        <p><strong>What does it take to dominate English football for four straight years?</strong> In a league as competitive as the Premier League, <strong>no team had ever won four consecutive titles</strong>.</p>
+        
+        <p>But their journey was anything but predictable. <strong>Each season presented a different battle</strong>—from sluggish starts to dominant streaks, all while facing relentless competition and nail-biting finishes.</p>
+        
+        <p>As we relive key moments from City’s previous three title-winning seasons, we’ll contrast them with where they stood at the same point in their <strong>2023-24 campaign</strong>—their fourth consecutive championship—<strong>shown in real time on the graph to the right</strong>.</p>
+        
+        <p><strong>Scroll down on the blue panel to begin</strong>, and discover how City’s four-year reign unfolded.</p>
+        
+        <div class="scroll-arrow">↓</div>
+      </section>
+      <section class="text-content" id="section2">
+
+        <!-- <h2>A Good Start for the 23/24 Season!</h2> -->
+        <h2>A Promising Start to 2023-24</h2>
+        <!-- <p>Did you know? During week nine of the 20/21 season (their first championship) Manchester City was in 13th place!</p>
+        <p>Hover over the logo of Manchester City on the right to see where they were during week 9 of 23/24. As a bonus, locate the team in 13th place.</p> -->
+
+        <p><strong>Did you know?</strong> During <strong>week nine</strong> of the <strong>2020-21 season</strong>—their first of four consecutive titles—Manchester City sat in <strong>13th place</strong>. No one would have predicted they would go on to win the <strong>Premier League</strong>, let alone accomplish a historic feat over the next four years. But December of that year marked a turning point, as they launched an <strong>incredible 21-game winning streak</strong> that culminated in a <strong>championship</strong>.</p>
+
+<p>Now, fast forward to <strong>week nine</strong> of the <strong>2023-24 season</strong> (shown in graph to the right)—<strong>a very different story</strong>. While not in first, City shows they are a force to be reckoned with right off the bat.</p>
+
+<p><strong>Hover over Manchester City's logo on the right</strong> to compare their position with where they stood in <strong>2020-21</strong>. As a fun extra, hover over the 13th-place team—<strong>who's struggling now?</strong></p>
+
+
+
+        <div class="scroll-arrow">↓</div>
+      </section>
+      <section class="text-content" id="section3">
+        <!-- <h2>But Not a Great One!</h2> -->
+        <h2>A Bump in the Road</h2>
+        <!-- <p>Manchester City fell to fourth place during week 15 of the 23/24 season (shown right).</p>
+        <p>However, at the same point during the 21/22 season (their second consecutive championship) Manchester City remained in first, and astonishingly, never relinquished the top spot for the remainder of that season.</p>
+     -->
+
+     <p>By<strong> week 15</strong> of the <strong>2023-24 season</strong>, City had fallen to fourth place (shown right)—<strong>less than ideal for a team chasing history.</strong></p>
+
+<p>But a look back at the <strong>2021-22 season</strong>, their second consecutive title, paints a very different picture. During <strong>week 15 of 2021-22</strong>, Manchester City had climbed to first place—<strong>a position they never let go of for the rest of the season.</strong></p>
+
+<p>However, that season was not as easy as that statistic might suggest. On the final day of the season, City trailed 2-0 to Aston Villa—<strong>just 20 minutes away from losing the title.</strong> But in a stunning turn of events, they <strong>scored three goals in five minutes</strong> to secure the trophy. Those three miracle goals remain one of the most dramatic endings in Premier League history.</p>
+
+
+    <!-- Button to Play Audio -->
+    <div class="button-container">
+      <button id="play-audio" class="audio-button">🔊 Click to Hear Their Third Goal</button>
+  </div>
+  
+  <audio id="audio-clip" src="audio/three_miracle_goals.mp3"></audio>
+  
+
+
+        <div class="scroll-arrow">↓</div>
+      </section>
+      <section class="text-content" id="section5">
+        <!-- <h2>With Another Nail Biting Finish!</h2> -->
+        <h2>Down to the Wire… Again</h2>
+        <p>During the second-to-last week of the <strong>2023-24 season</strong> (shown right), Manchester City was yet again in another must-win situation, with <strong>less than a one-game lead over Arsenal</strong>. The equation was simple: <strong>win and make history, or don't and lose that chance—possibly forever</strong>.</p>
+
+        <p>This was a stark contrast to <strong>2022-23</strong>, where Manchester City won the league with a comfortable eight-point cushion. However, that season too was no cakewalk. Arsenal led the league for a historic 248 days—the <strong>longest ever for a team that did not win the title</strong>.</p>
+        
+        <p>Fast forward to 2023-24, and City once again face a tense final week. Can they hold on, <strong>or will history slip through their fingers?</strong></p>
+        
+        <div class="scroll-arrow">↓</div>
+      </section>
+      <section class="text-content" id="section6">
+
+
+        <h2>History Is Made</h2>
+
+<p>When the whistle blew on the last match of the <strong>2023-24 season</strong>, Manchester City had done it—they became <strong>the first team in Premier League history to win four consecutive titles</strong>. What made this even more impressive was just how distinct all four of these championships were, with each containing their own unique battles and challenges.</p>
+
+<p>In <strong>2020-21</strong>, they fought back from a <strong>slow start</strong>. In <strong>2021-22</strong>, they controlled the league but still narrowly avoided defeat. In <strong>2022-23</strong>, they hunted down a runaway Arsenal. And now, in <strong>2023-24</strong>, they proved that even under historical pressure, they could still find a way to prevail.</p>
+
+<p>Their record-breaking feat cemented them as <strong>one of the greatest teams in football history</strong>, and their era of success will be remembered not just for the trophies, <strong>but for how they won them</strong>—with resiliency, and an ability to always rise to the occasion.</strong></p>
+
+<p><strong>(Move your mouse outside of the blue panel to scroll for further interactive features!)</strong></p>
+
+
+
+        <div class="scroll-arrow">↓</div>
+      </section>
+    </div>
+    <!-- <div class="graph-container">
+      <div id="epl"></div>
+    </div> -->
+
+    <div class="graph-container">
+      <h2 class="graph-title">2023-24 Premier League Season</h2>
+      <div id="epl"></div>
+    </div>
+
+  </div>
+
+<!-- Write-up Section Above Soccer Field -->
+<div class="soccer-writeup-top">
+  <h2>Building Greatness: The Players Behind Manchester City’s Success</h2>
+  Trophies aren’t won by luck or chance. They’re built through hard work, teamwork, and moments of individual brilliance. Over Manchester City’s remarkable four-year title run, it was the players who made the difference. From Erling Haaland’s ruthless finishing to Kevin De Bruyne’s magical passes and Kyle Walker’s lightning-fast recoveries, each player brought something unique to the table. This is about them—the players who made it happen.</p>
+  <p><strong>Explore the Field</strong><br>
+    Below is the pitch where it all unfolded. Click on any player to learn more about their role and stats in the team’s success. Dive into their contributions, from goals and assists to games played and disciplinary records, and see how they shaped Manchester City’s legacy.
+</p>
+</div>
+
+  <!-- Soccer Field Section -->
+  <div class="soccer-container">
+    <img src="Soccer_Field.png" alt="Soccer Field" class="soccer-field">
+    <div id="players"></div>
+    <div id="substitutes" class="substitutes"></div>
+    <!-- Detailed Soccer View Overlay (initially hidden) -->
+    <div id="detailed-soccer-view" class="detailed-view hidden"></div>
+  </div>
+
+  <div class="guardiola-writeup-top">
+    <h2>Pep Guardiola: The Architect of This Greatness</h2>
+    <p>
+      The mastermind behind Manchester City’s historic four-year title run is Pep Guardiola. When he arrived in 2016, City had already won the Premier League, but Pep wanted more—not just to win, but to dominate. And that’s exactly what they did, securing four consecutive league titles and etching their name into football history.
+    </p>
+    <!-- Pep Guardiola's Image -->
+    <img src="images/guardiola.png" alt="Pep Guardiola" class="guardiola-image">
+    <p>
+      Guardiola’s philosophy—possession-based, high-pressing, and tactically fluid—became City’s identity. He reshaped the squad, bringing in players like Ederson, Bernardo Silva, Ruben Dias, and Erling Haaland, each adding a unique piece to the puzzle. By the time their title streak began, City were a machine, capable of outthinking and outplaying any opponent.
+    </p>
+    <p>
+      Pep’s tactical genius was on full display every season. Whether it was inverted full-backs, midfield rotations, or game-changing substitutions, he always found a way to stay ahead. The challenges were there—tight races, fierce rivals, moments of doubt—but Guardiola’s ability to keep his squad focused and motivated never wavered.
+    </p>
+    <p>
+      The 2023-24 season sealed their legacy, making City the first team to win four straight Premier League titles. But Guardiola’s impact goes beyond trophies. He built a culture of excellence, defined by his attention to detail, adaptability, and relentless pursuit of perfection.
+    </p>
+    <p>
+      From thrilling comebacks to displays of dominance, City’s four-year run will be remembered as one of football’s greatest eras. And at the center of it all was Pep Guardiola—the architect of their success.
+    </p>
+    <!-- Team Lifting the Title Image -->
+    <img src="images/Title.png" alt="Manchester City Lifting the Title" class="team-image">
+    <p>
+      <h1>Now It’s Your Turn – Test Your Premier League Knowledge!</h1>
+  <p>How well do <strong>you</strong> know the Premier League? Take on the <strong>Trivia Challenge</strong> below and prove your football knowledge! ⚽👇</p>
+  </div>
+
+
+
+
+
+
+  <!-- Quiz Section -->
+  <div class="quiz-container">
+    <h1>Premier League Trivia</h1>
+    <p>Click on an image to play True or False!</p>
+    <!-- Icon Grid -->
+    <div id="icon-grid" class="icon-grid"></div>
+    <!-- Question Section -->
+    <div id="question-container" class="question-container">
+      <p id="question">Click an image to start!</p>
+      <div class="answer-buttons">
+        <button id="true-btn" class="answer-btn">True</button>
+        <button id="false-btn" class="answer-btn">False</button>
+      </div>
+    </div>
+    <!-- Feedback Section -->
+    <div id="feedback" class="feedback-container"></div>
+  </div>
+
+  <canvas id="player-stats-chart"></canvas>
+
+  <!-- Include JavaScript Files -->
+  <script src="main.js"></script>
+  <script src="script.js"></script>
+  <script src="quiz.js"></script>
+  <script src="fireworks.js"></script>
+</body>
+</html>
+
+
+
+
+

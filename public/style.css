@@ -1,0 +1,453 @@
+/* General styling */
+body {
+  background-image: url('bg.jpg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Header styling */
+header {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-bottom: 3px solid #FFD700;
+  text-align: center;
+}
+
+/* Floating effect for logo */
+@keyframes floatLogo {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+.logo {
+  width: 150px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+  animation: floatLogo 3s infinite ease-in-out;
+}
+
+/* Scrolling container for text and graph */
+.scroll-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Text sections styling */
+.text-sections {
+  width: 50%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  padding: 40px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.text-sections::-webkit-scrollbar { display: none; }
+
+/* Waving flag animation */
+@keyframes waveEffect {
+  0% { transform: perspective(600px) rotateY(0deg); }
+  25% { transform: perspective(600px) rotateY(8deg); }
+  50% { transform: perspective(600px) rotateY(-8deg); }
+  75% { transform: perspective(600px) rotateY(4deg); }
+  100% { transform: perspective(600px) rotateY(0deg); }
+}
+
+.text-content {
+  min-height: 65vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 200px; 
+  text-align: left;
+  scroll-snap-align: start;
+  padding-left: 40px;
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.text-content:last-child {
+  min-height: 80vh; /* Make sure it takes up enough space */
+  padding-bottom: 100px; /* Adds extra spacing at bottom */
+  align-items: flex-start; /* Ensure content aligns well */
+}
+
+.text-content:last-child .scroll-arrow {
+  bottom: 30px; /* Moves arrow lower for better alignment */
+  position: absolute;
+  color: white !important;
+}
+
+.text-content.visible {
+  opacity: 1;
+  transform: translateX(0);
+  animation: waveEffect 1.5s ease-in-out;
+}
+/* Flag-like background for text sections */
+.text-content {
+  background: rgba(12, 177, 232, 0.95);
+  color: white;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+}
+
+/* Scroll Arrow Styling */
+.scroll-arrow {
+  color: white !important;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  cursor: pointer;
+  animation: bounce 1.5s infinite;
+  transition: opacity 0.5s ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(10px); }
+}
+
+/* Different Arrow Colors for Each Section */
+.text-content:nth-child(1) .scroll-arrow { color: #FFD700; }  /* Gold */
+.text-content:nth-child(2) .scroll-arrow { color: #FF4500; }  /* Orange-Red */
+.text-content:nth-child(3) .scroll-arrow { color: #32CD32; }  /* Lime Green */
+.text-content:nth-child(4) .scroll-arrow { color: #FF69B4; }  /* Hot Pink */
+.text-content:nth-child(5) .scroll-arrow { color: #1E90FF; }  /* Dodger Blue */
+
+
+.graph-container {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;  
+  justify-content: flex-start; 
+  text-align: center;
+}
+
+.graph-title {
+  text-align: center;
+  font-size: 24px;
+  color: white; 
+  background: rgba(0, 0, 0, 0.7); 
+  padding: 10px 20px; 
+  border-radius: 8px; 
+  display: inline-block;
+  margin-bottom: 15px; 
+}
+
+#epl {
+  width: 100%;
+  height: 100%;
+}
+
+/* Quiz Section styling */
+.quiz-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: rgba(0,0,0,0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+}
+.quiz-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.quiz-icon:hover { transform: scale(1.1); }
+.question-container { margin-top: 20px; font-size: 26px; }
+.answer-buttons { margin-top: 10px; }
+.answer-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #4682b4;
+  color: white;
+  transition: background 0.3s;
+}
+.answer-btn:hover { background: #315a7a; }
+.feedback-container { margin-top: 20px; font-size: 24px; font-weight: bold; }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .graph-container {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+  #epl { width: 100%; height: 400px; }
+}
+@media (max-width: 480px) {
+  .scroll-container { flex-direction: column; }
+  .text-sections { width: 100%; padding: 20px; }
+}
+
+/* --- Soccer Field Styling --- */
+.soccer-container {
+  position: relative;
+  width: 800px;
+  margin: auto;
+}
+.soccer-field {
+  width: 100%;
+  height: auto;
+}
+/* Starting XI players */
+.player {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.player:hover { transform: scale(1.1); }
+/* Substitutes (stacked to the right) */
+.substitutes {
+  position: absolute;
+  top: 50px;
+  right: -100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+}
+
+.substitute {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border: 2px solid white;
+}
+
+/* Fullscreen dark overlay */
+#detailed-soccer-view {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Box for player image and details */
+.player-info-box {
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Player Image */
+.detailed-player-image {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+/* Player Stats Text */
+.player-stats-text {
+  color: white;
+  font-size: 18px;
+}
+
+/* Transparent White Box for Stats */
+.stats-container {
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Back Button */
+.back-button {
+  background: #4682b4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+
+/*For the statswrite up*/
+.soccer-writeup-top {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+  line-height: 1.8;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+}
+
+.soccer-writeup-top h2 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.soccer-writeup-top p{
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.soccer-writeup-top strong{
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .soccer-writeup-top{
+    padding: 20px;
+    margin: 15px;
+  }
+
+  .soccer-writeup-top h2 {
+    font-size: 1.8rem;
+  }
+
+  .soccer-writeup-top p{
+    font-size: 1rem;
+  }
+}
+
+.audio-button {
+  background: black;
+  color: white;
+  font-size: 14px;
+  padding: 8px 15px; 
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  width: fit-content; 
+  min-width: 120px; 
+  gap: 8px; 
+  margin: 15px auto; 
+}
+.audio-button:hover {
+  background: #333;
+  transform: scale(1.05);
+}
+
+
+/*guardiola write up*/
+
+.guardiola-writeup-top {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+  line-height: 1.8;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+}
+
+.guardiola-writeup-top h2 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.guardiola-writeup-top p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Image Styling */
+.guardiola-image,
+.team-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.guardiola-image {
+  max-width: 400px; /* Adjust as needed */
+}
+
+.team-image {
+  max-width: 600px; /* Adjust as needed */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .guardiola-writeup-top {
+    padding: 20px;
+    margin: 15px;
+  }
+
+  .guardiola-writeup-top h2 {
+    font-size: 1.8rem;
+  }
+
+  .guardiola-writeup-top p {
+    font-size: 1rem;
+  }
+
+  .guardiola-image,
+  .team-image {
+    margin: 15px auto;
+  }
+}

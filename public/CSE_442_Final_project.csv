@@ -1,0 +1,761 @@
+Club,Position,Played,Points,Logo
+Newcastle United,1,1,3,./images/Newcastle.png
+Brighton And Hove Albion,2,1,3,./images/Brighton.png
+Manchester City,3,1,3,./images/Man-city.png
+Arsenal,4,1,3,./images/Arsenal.png
+Crystal Palace,5,1,3,./images/Palace.png
+Fulham,6,1,3,./images/Fulham.png
+Manchester United,7,1,3,./images/Man-utd.png
+Brentford,8,1,1,./images/Brentford.png
+Tottenham Hotspur,9,1,1,./images/Tottenham.png
+Bournemouth,10,1,1,./images/Bournemouth.png
+Chelsea,11,1,1,./images/Chelsea.png
+Liverpool,12,1,1,./images/Liverpool.png
+West Ham United,13,1,1,./images/West-ham.png
+Nottingham Forest,14,1,0,./images/Forest.png
+Everton,15,1,0,./images/Everton.png
+Sheffield United,16,1,0,./images/Sheffield.png
+Wolverhampton Wanderers,17,1,0,./images/Wolves.png
+Luton Town,18,1,0,./images/Luton.png
+Burnley,19,1,0,./images/Burnley.png
+Aston Villa,20,1,0,./images/Villa.png
+Newcastle United,8,2,3,./images/Newcastle.png
+Brighton And Hove Albion,1,2,6,./images/Brighton.png
+Manchester City,2,2,6,./images/Man-city.png
+Arsenal,3,2,6,./images/Arsenal.png
+Crystal Palace,11,2,3,./images/Palace.png
+Fulham,13,2,3,./images/Fulham.png
+Manchester United,12,2,3,./images/Man-utd.png
+Brentford,4,2,4,./images/Brentford.png
+Tottenham Hotspur,6,2,4,./images/Tottenham.png
+Bournemouth,14,2,1,./images/Bournemouth.png
+Chelsea,15,2,1,./images/Chelsea.png
+Liverpool,5,2,4,./images/Liverpool.png
+West Ham United,7,2,4,./images/West-ham.png
+Nottingham Forest,10,2,3,./images/Forest.png
+Everton,20,2,0,./images/Everton.png
+Sheffield United,16,2,0,./images/Sheffield.png
+Wolverhampton Wanderers,19,2,0,./images/Wolves.png
+Luton Town,17,1,0,./images/Luton.png
+Burnley,18,1,0,./images/Burnley.png
+Aston Villa,9,2,3,./images/Villa.png
+Newcastle United,13,3,3,./images/Newcastle.png
+Brighton And Hove Albion,6,3,6,./images/Brighton.png
+Manchester City,1,3,9,./images/Man-city.png
+Arsenal,5,3,7,./images/Arsenal.png
+Crystal Palace,11,3,4,./images/Palace.png
+Fulham,12,3,4,./images/Fulham.png
+Manchester United,8,3,6,./images/Man-utd.png
+Brentford,9,3,5,./images/Brentford.png
+Tottenham Hotspur,3,3,7,./images/Tottenham.png
+Bournemouth,16,3,1,./images/Bournemouth.png
+Chelsea,10,3,4,./images/Chelsea.png
+Liverpool,4,3,7,./images/Liverpool.png
+West Ham United,2,3,7,./images/West-ham.png
+Nottingham Forest,14,3,3,./images/Forest.png
+Everton,20,3,0,./images/Everton.png
+Sheffield United,17,3,0,./images/Sheffield.png
+Wolverhampton Wanderers,15,3,3,./images/Wolves.png
+Luton Town,19,2,0,./images/Luton.png
+Burnley,18,2,0,./images/Burnley.png
+Aston Villa,7,3,6,./images/Villa.png
+Newcastle United,14,4,3,./images/Newcastle.png
+Brighton And Hove Albion,6,4,9,./images/Brighton.png
+Manchester City,1,4,12,./images/Man-city.png
+Arsenal,5,4,10,./images/Arsenal.png
+Crystal Palace,7,4,7,./images/Palace.png
+Fulham,13,4,4,./images/Fulham.png
+Manchester United,11,4,6,./images/Man-utd.png
+Brentford,8,4,6,./images/Brentford.png
+Tottenham Hotspur,2,4,10,./images/Tottenham.png
+Bournemouth,16,4,2,./images/Bournemouth.png
+Chelsea,12,4,4,./images/Chelsea.png
+Liverpool,3,4,10,./images/Liverpool.png
+West Ham United,4,4,10,./images/West-ham.png
+Nottingham Forest,9,4,6,./images/Forest.png
+Everton,18,4,1,./images/Everton.png
+Sheffield United,17,4,1,./images/Sheffield.png
+Wolverhampton Wanderers,15,4,3,./images/Wolves.png
+Luton Town,19,3,0,./images/Luton.png
+Burnley,20,3,0,./images/Burnley.png
+Aston Villa,10,4,6,./images/Villa.png
+Newcastle United,12,5,6,./images/Newcastle.png
+Brighton And Hove Albion,5,5,12,./images/Brighton.png
+Manchester City,1,5,15,./images/Man-city.png
+Arsenal,4,5,13,./images/Arsenal.png
+Crystal Palace,9,5,7,./images/Palace.png
+Fulham,10,5,7,./images/Fulham.png
+Manchester United,13,5,6,./images/Man-utd.png
+Brentford,11,5,6,./images/Brentford.png
+Tottenham Hotspur,2,5,13,./images/Tottenham.png
+Bournemouth,15,5,3,./images/Bournemouth.png
+Chelsea,14,5,5,./images/Chelsea.png
+Liverpool,3,5,13,./images/Liverpool.png
+West Ham United,6,5,10,./images/West-ham.png
+Nottingham Forest,8,5,7,./images/Forest.png
+Everton,18,5,1,./images/Everton.png
+Sheffield United,17,5,1,./images/Sheffield.png
+Wolverhampton Wanderers,16,5,3,./images/Wolves.png
+Luton Town,20,4,0,./images/Luton.png
+Burnley,19,4,1,./images/Burnley.png
+Aston Villa,7,5,9,./images/Villa.png
+Newcastle United,8,6,9,./images/Newcastle.png
+Brighton And Hove Albion,3,6,15,./images/Brighton.png
+Manchester City,1,6,18,./images/Man-city.png
+Arsenal,5,6,14,./images/Arsenal.png
+Crystal Palace,10,6,8,./images/Palace.png
+Fulham,11,6,8,./images/Fulham.png
+Manchester United,9,6,9,./images/Man-utd.png
+Brentford,13,6,6,./images/Brentford.png
+Tottenham Hotspur,4,6,14,./images/Tottenham.png
+Bournemouth,17,6,3,./images/Bournemouth.png
+Chelsea,14,6,5,./images/Chelsea.png
+Liverpool,2,6,16,./images/Liverpool.png
+West Ham United,7,6,10,./images/West-ham.png
+Nottingham Forest,12,6,7,./images/Forest.png
+Everton,15,6,4,./images/Everton.png
+Sheffield United,20,6,1,./images/Sheffield.png
+Wolverhampton Wanderers,16,6,4,./images/Wolves.png
+Luton Town,18,5,1,./images/Luton.png
+Burnley,19,5,1,./images/Burnley.png
+Aston Villa,6,6,12,./images/Villa.png
+Newcastle United,8,7,12,./images/Newcastle.png
+Brighton And Hove Albion,6,7,15,./images/Brighton.png
+Manchester City,1,7,18,./images/Man-city.png
+Arsenal,3,7,17,./images/Arsenal.png
+Crystal Palace,9,7,11,./images/Palace.png
+Fulham,13,7,8,./images/Fulham.png
+Manchester United,10,7,9,./images/Man-utd.png
+Brentford,14,7,7,./images/Brentford.png
+Tottenham Hotspur,2,7,17,./images/Tottenham.png
+Bournemouth,19,7,3,./images/Bournemouth.png
+Chelsea,11,7,8,./images/Chelsea.png
+Liverpool,4,7,16,./images/Liverpool.png
+West Ham United,7,7,13,./images/West-ham.png
+Nottingham Forest,12,7,8,./images/Forest.png
+Everton,16,7,4,./images/Everton.png
+Sheffield United,20,7,1,./images/Sheffield.png
+Wolverhampton Wanderers,15,7,7,./images/Wolves.png
+Luton Town,17,7,4,./images/Luton.png
+Burnley,18,7,4,./images/Burnley.png
+Aston Villa,5,7,15,./images/Villa.png
+Newcastle United,8,8,13,./images/Newcastle.png
+Brighton And Hove Albion,6,8,16,./images/Brighton.png
+Manchester City,3,8,18,./images/Man-city.png
+Arsenal,2,8,20,./images/Arsenal.png
+Crystal Palace,9,8,12,./images/Palace.png
+Fulham,12,8,11,./images/Fulham.png
+Manchester United,10,8,12,./images/Man-utd.png
+Brentford,15,8,7,./images/Brentford.png
+Tottenham Hotspur,1,8,20,./images/Tottenham.png
+Bournemouth,19,8,3,./images/Bournemouth.png
+Chelsea,11,8,11,./images/Chelsea.png
+Liverpool,4,8,17,./images/Liverpool.png
+West Ham United,7,8,14,./images/West-ham.png
+Nottingham Forest,13,8,9,./images/Forest.png
+Everton,16,8,7,./images/Everton.png
+Sheffield United,20,8,1,./images/Sheffield.png
+Wolverhampton Wanderers,14,8,8,./images/Wolves.png
+Luton Town,17,8,4,./images/Luton.png
+Burnley,18,8,4,./images/Burnley.png
+Aston Villa,5,8,16,./images/Villa.png
+Newcastle United,6,9,16,./images/Newcastle.png
+Brighton And Hove Albion,7,9,16,./images/Brighton.png
+Manchester City,2,9,21,./images/Man-city.png
+Arsenal,3,9,21,./images/Arsenal.png
+Crystal Palace,11,9,12,./images/Palace.png
+Fulham,13,9,11,./images/Fulham.png
+Manchester United,8,9,15,./images/Man-utd.png
+Brentford,14,9,10,./images/Brentford.png
+Tottenham Hotspur,1,9,23,./images/Tottenham.png
+Bournemouth,19,9,3,./images/Bournemouth.png
+Chelsea,10,9,12,./images/Chelsea.png
+Liverpool,4,9,20,./images/Liverpool.png
+West Ham United,9,9,14,./images/West-ham.png
+Nottingham Forest,15,9,10,./images/Forest.png
+Everton,16,9,7,./images/Everton.png
+Sheffield United,20,9,1,./images/Sheffield.png
+Wolverhampton Wanderers,12,9,11,./images/Wolves.png
+Luton Town,17,9,5,./images/Luton.png
+Burnley,18,9,4,./images/Burnley.png
+Aston Villa,5,9,19,./images/Villa.png
+Newcastle United,6,10,17,./images/Newcastle.png
+Brighton And Hove Albion,7,10,17,./images/Brighton.png
+Manchester City,3,10,24,./images/Man-city.png
+Arsenal,2,10,24,./images/Arsenal.png
+Crystal Palace,13,10,12,./images/Palace.png
+Fulham,14,10,12,./images/Fulham.png
+Manchester United,8,10,15,./images/Man-utd.png
+Brentford,10,10,13,./images/Brentford.png
+Tottenham Hotspur,1,10,26,./images/Tottenham.png
+Bournemouth,17,10,6,./images/Bournemouth.png
+Chelsea,11,10,12,./images/Chelsea.png
+Liverpool,4,10,23,./images/Liverpool.png
+West Ham United,9,10,14,./images/West-ham.png
+Nottingham Forest,16,10,10,./images/Forest.png
+Everton,15,10,10,./images/Everton.png
+Sheffield United,20,10,1,./images/Sheffield.png
+Wolverhampton Wanderers,12,10,12,./images/Wolves.png
+Luton Town,18,10,5,./images/Luton.png
+Burnley,19,10,4,./images/Burnley.png
+Aston Villa,5,10,22,./images/Villa.png
+Newcastle United,6,11,20,./images/Newcastle.png
+Brighton And Hove Albion,7,11,18,./images/Brighton.png
+Manchester City,1,11,27,./images/Man-city.png
+Arsenal,4,11,24,./images/Arsenal.png
+Crystal Palace,11,11,15,./images/Palace.png
+Fulham,15,11,12,./images/Fulham.png
+Manchester United,8,11,18,./images/Man-utd.png
+Brentford,9,11,16,./images/Brentford.png
+Tottenham Hotspur,2,11,26,./images/Tottenham.png
+Bournemouth,18,11,6,./images/Bournemouth.png
+Chelsea,10,11,15,./images/Chelsea.png
+Liverpool,3,11,24,./images/Liverpool.png
+West Ham United,12,11,14,./images/West-ham.png
+Nottingham Forest,13,11,13,./images/Forest.png
+Everton,16,11,11,./images/Everton.png
+Sheffield United,20,11,4,./images/Sheffield.png
+Wolverhampton Wanderers,14,11,12,./images/Wolves.png
+Luton Town,17,11,6,./images/Luton.png
+Burnley,19,11,4,./images/Burnley.png
+Aston Villa,5,11,22,./images/Villa.png
+Newcastle United,7,12,20,./images/Newcastle.png
+Brighton And Hove Albion,8,12,19,./images/Brighton.png
+Manchester City,1,12,28,./images/Man-city.png
+Arsenal,3,12,27,./images/Arsenal.png
+Crystal Palace,13,12,15,./images/Palace.png
+Fulham,16,12,12,./images/Fulham.png
+Manchester United,6,12,21,./images/Man-utd.png
+Brentford,11,12,16,./images/Brentford.png
+Tottenham Hotspur,4,12,26,./images/Tottenham.png
+Bournemouth,17,12,9,./images/Bournemouth.png
+Chelsea,10,12,16,./images/Chelsea.png
+Liverpool,2,12,27,./images/Liverpool.png
+West Ham United,9,12,17,./images/West-ham.png
+Nottingham Forest,15,12,13,./images/Forest.png
+Everton,14,12,14,./images/Everton.png
+Sheffield United,19,12,5,./images/Sheffield.png
+Wolverhampton Wanderers,12,12,15,./images/Wolves.png
+Luton Town,18,12,6,./images/Luton.png
+Burnley,20,12,4,./images/Burnley.png
+Aston Villa,5,12,25,./images/Villa.png
+Newcastle United,7,13,23,./images/Newcastle.png
+Brighton And Hove Albion,8,13,22,./images/Brighton.png
+Manchester City,2,13,29,./images/Man-city.png
+Arsenal,1,13,30,./images/Arsenal.png
+Crystal Palace,13,13,15,./images/Palace.png
+Fulham,14,13,15,./images/Fulham.png
+Manchester United,6,13,24,./images/Man-utd.png
+Brentford,11,13,16,./images/Brentford.png
+Tottenham Hotspur,5,13,26,./images/Tottenham.png
+Bournemouth,16,13,12,./images/Bournemouth.png
+Chelsea,10,13,16,./images/Chelsea.png
+Liverpool,3,13,28,./images/Liverpool.png
+West Ham United,9,13,20,./images/West-ham.png
+Nottingham Forest,15,13,13,./images/Forest.png
+Everton,18,13,6,./images/Everton.png
+Sheffield United,19,13,5,./images/Sheffield.png
+Wolverhampton Wanderers,12,13,15,./images/Wolves.png
+Luton Town,17,13,9,./images/Luton.png
+Burnley,20,13,4,./images/Burnley.png
+Aston Villa,4,13,28,./images/Villa.png
+Newcastle United,6,14,26,./images/Newcastle.png
+Brighton And Hove Albion,8,14,22,./images/Brighton.png
+Manchester City,3,14,30,./images/Man-city.png
+Arsenal,1,14,33,./images/Arsenal.png
+Crystal Palace,12,14,16,./images/Palace.png
+Fulham,13,14,15,./images/Fulham.png
+Manchester United,7,14,24,./images/Man-utd.png
+Brentford,11,14,19,./images/Brentford.png
+Tottenham Hotspur,5,14,27,./images/Tottenham.png
+Bournemouth,16,14,13,./images/Bournemouth.png
+Chelsea,10,14,19,./images/Chelsea.png
+Liverpool,2,14,31,./images/Liverpool.png
+West Ham United,9,14,21,./images/West-ham.png
+Nottingham Forest,15,14,13,./images/Forest.png
+Everton,17,14,9,./images/Everton.png
+Sheffield United,20,14,5,./images/Sheffield.png
+Wolverhampton Wanderers,14,14,15,./images/Wolves.png
+Luton Town,18,14,9,./images/Luton.png
+Burnley,19,14,7,./images/Burnley.png
+Aston Villa,4,14,29,./images/Villa.png
+Newcastle United,7,15,26,./images/Newcastle.png
+Brighton And Hove Albion,8,15,25,./images/Brighton.png
+Manchester City,4,15,30,./images/Man-city.png
+Arsenal,1,15,36,./images/Arsenal.png
+Crystal Palace,14,15,16,./images/Palace.png
+Fulham,12,15,18,./images/Fulham.png
+Manchester United,6,15,27,./images/Man-utd.png
+Brentford,11,15,19,./images/Brentford.png
+Tottenham Hotspur,5,15,27,./images/Tottenham.png
+Bournemouth,15,15,16,./images/Bournemouth.png
+Chelsea,10,15,19,./images/Chelsea.png
+Liverpool,2,15,34,./images/Liverpool.png
+West Ham United,9,15,24,./images/West-ham.png
+Nottingham Forest,16,15,13,./images/Forest.png
+Everton,17,15,12,./images/Everton.png
+Sheffield United,20,15,5,./images/Sheffield.png
+Wolverhampton Wanderers,13,15,18,./images/Wolves.png
+Luton Town,18,15,9,./images/Luton.png
+Burnley,19,15,7,./images/Burnley.png
+Aston Villa,3,15,32,./images/Villa.png
+Newcastle United,7,16,26,./images/Newcastle.png
+Brighton And Hove Albion,8,16,26,./images/Brighton.png
+Manchester City,4,16,33,./images/Man-city.png
+Arsenal,2,16,36,./images/Arsenal.png
+Crystal Palace,15,16,16,./images/Palace.png
+Fulham,10,16,21,./images/Fulham.png
+Manchester United,6,16,27,./images/Man-utd.png
+Brentford,11,16,19,./images/Brentford.png
+Tottenham Hotspur,5,16,30,./images/Tottenham.png
+Bournemouth,14,16,19,./images/Bournemouth.png
+Chelsea,12,16,19,./images/Chelsea.png
+Liverpool,1,16,37,./images/Liverpool.png
+West Ham United,9,16,24,./images/West-ham.png
+Nottingham Forest,17,16,14,./images/Forest.png
+Everton,16,16,15,./images/Everton.png
+Sheffield United,20,16,8,./images/Sheffield.png
+Wolverhampton Wanderers,13,16,19,./images/Wolves.png
+Luton Town,18,16,9,./images/Luton.png
+Burnley,19,16,8,./images/Burnley.png
+Aston Villa,3,16,35,./images/Villa.png
+Newcastle United,6,17,29,./images/Newcastle.png
+Brighton And Hove Albion,9,17,26,./images/Brighton.png
+Manchester City,4,17,34,./images/Man-city.png
+Arsenal,1,17,39,./images/Arsenal.png
+Crystal Palace,16,17,17,./images/Palace.png
+Fulham,11,17,21,./images/Fulham.png
+Manchester United,7,17,28,./images/Man-utd.png
+Brentford,12,17,19,./images/Brentford.png
+Tottenham Hotspur,5,17,33,./images/Tottenham.png
+Bournemouth,14,16,19,./images/Bournemouth.png
+Chelsea,10,17,22,./images/Chelsea.png
+Liverpool,2,17,38,./images/Liverpool.png
+West Ham United,8,17,27,./images/West-ham.png
+Nottingham Forest,17,17,14,./images/Forest.png
+Everton,15,17,18,./images/Everton.png
+Sheffield United,20,17,8,./images/Sheffield.png
+Wolverhampton Wanderers,13,17,19,./images/Wolves.png
+Luton Town,18,16,9,./images/Luton.png
+Burnley,19,17,8,./images/Burnley.png
+Aston Villa,3,17,38,./images/Villa.png
+Newcastle United,7,18,29,./images/Newcastle.png
+Brighton And Hove Albion,9,18,27,./images/Brighton.png
+Manchester City,5,17,34,./images/Man-city.png
+Arsenal,1,18,40,./images/Arsenal.png
+Crystal Palace,16,18,18,./images/Palace.png
+Fulham,12,18,21,./images/Fulham.png
+Manchester United,8,18,28,./images/Man-utd.png
+Brentford,14,17,19,./images/Brentford.png
+Tottenham Hotspur,4,18,36,./images/Tottenham.png
+Bournemouth,11,17,22,./images/Bournemouth.png
+Chelsea,10,18,22,./images/Chelsea.png
+Liverpool,2,18,39,./images/Liverpool.png
+West Ham United,6,18,30,./images/West-ham.png
+Nottingham Forest,17,18,14,./images/Forest.png
+Everton,15,18,18,./images/Everton.png
+Sheffield United,20,18,9,./images/Sheffield.png
+Wolverhampton Wanderers,13,18,22,./images/Wolves.png
+Luton Town,18,17,12,./images/Luton.png
+Burnley,19,18,11,./images/Burnley.png
+Aston Villa,3,18,39,./images/Villa.png
+Newcastle United,9,19,29,./images/Newcastle.png
+Brighton And Hove Albion,8,19,30,./images/Brighton.png
+Manchester City,4,18,37,./images/Man-city.png
+Arsenal,2,19,40,./images/Arsenal.png
+Crystal Palace,16,19,18,./images/Palace.png
+Fulham,12,19,21,./images/Fulham.png
+Manchester United,7,19,31,./images/Man-utd.png
+Brentford,14,18,19,./images/Brentford.png
+Tottenham Hotspur,5,19,36,./images/Tottenham.png
+Bournemouth,11,18,25,./images/Bournemouth.png
+Chelsea,10,19,25,./images/Chelsea.png
+Liverpool,1,19,42,./images/Liverpool.png
+West Ham United,6,19,33,./images/West-ham.png
+Nottingham Forest,17,19,17,./images/Forest.png
+Everton,15,19,18,./images/Everton.png
+Sheffield United,20,19,9,./images/Sheffield.png
+Wolverhampton Wanderers,11,19,25,./images/Wolves.png
+Luton Town,18,18,15,./images/Luton.png
+Burnley,19,19,11,./images/Burnley.png
+Aston Villa,3,19,39,./images/Villa.png
+Newcastle United,9,20,29,./images/Newcastle.png
+Brighton And Hove Albion,7,20,31,./images/Brighton.png
+Manchester City,3,19,40,./images/Man-city.png
+Arsenal,4,20,40,./images/Arsenal.png
+Crystal Palace,14,20,21,./images/Palace.png
+Fulham,13,20,24,./images/Fulham.png
+Manchester United,8,20,31,./images/Man-utd.png
+Brentford,16,19,19,./images/Brentford.png
+Tottenham Hotspur,5,20,39,./images/Tottenham.png
+Bournemouth,12,19,25,./images/Bournemouth.png
+Chelsea,10,20,28,./images/Chelsea.png
+Liverpool,1,20,45,./images/Liverpool.png
+West Ham United,6,20,34,./images/West-ham.png
+Nottingham Forest,15,20,20,./images/Forest.png
+Everton,17,20,18,./images/Everton.png
+Sheffield United,20,20,9,./images/Sheffield.png
+Wolverhampton Wanderers,11,20,28,./images/Wolves.png
+Luton Town,18,19,15,./images/Luton.png
+Burnley,19,20,11,./images/Burnley.png
+Aston Villa,2,20,42,./images/Villa.png
+Newcastle United,10,21,29,./images/Newcastle.png
+Brighton And Hove Albion,7,21,32,./images/Brighton.png
+Manchester City,2,20,43,./images/Man-city.png
+Arsenal,3,21,43,./images/Arsenal.png
+Crystal Palace,15,21,21,./images/Palace.png
+Fulham,13,21,24,./images/Fulham.png
+Manchester United,8,21,32,./images/Man-utd.png
+Brentford,14,20,22,./images/Brentford.png
+Tottenham Hotspur,5,21,40,./images/Tottenham.png
+Bournemouth,12,20,25,./images/Bournemouth.png
+Chelsea,9,21,31,./images/Chelsea.png
+Liverpool,1,21,48,./images/Liverpool.png
+West Ham United,6,21,35,./images/West-ham.png
+Nottingham Forest,16,21,20,./images/Forest.png
+Everton,17,21,19,./images/Everton.png
+Sheffield United,20,21,10,./images/Sheffield.png
+Wolverhampton Wanderers,11,20,29,./images/Wolves.png
+Luton Town,18,20,16,./images/Luton.png
+Burnley,19,21,12,./images/Burnley.png
+Aston Villa,4,21,43,./images/Villa.png
+Newcastle United,8,22,32,./images/Newcastle.png
+Brighton And Hove Albion,9,22,32,./images/Brighton.png
+Manchester City,2,21,46,./images/Man-city.png
+Arsenal,3,22,46,./images/Arsenal.png
+Crystal Palace,14,22,24,./images/Palace.png
+Fulham,13,22,25,./images/Fulham.png
+Manchester United,7,22,35,./images/Man-utd.png
+Brentford,15,21,22,./images/Brentford.png
+Tottenham Hotspur,4,22,43,./images/Tottenham.png
+Bournemouth,12,21,26,./images/Bournemouth.png
+Chelsea,10,22,31,./images/Chelsea.png
+Liverpool,1,22,51,./images/Liverpool.png
+West Ham United,6,22,36,./images/West-ham.png
+Nottingham Forest,17,22,20,./images/Forest.png
+Everton,16,22,20,./images/Everton.png
+Sheffield United,20,22,12,./images/Sheffield.png
+Wolverhampton Wanderers,11,22,29,./images/Wolves.png
+Luton Town,18,21,19,./images/Luton.png
+Burnley,19,22,12,./images/Burnley.png
+Aston Villa,5,22,43,./images/Villa.png
+Newcastle United,9,23,33,./images/Newcastle.png
+Brighton And Hove Albion,8,23,35,./images/Brighton.png
+Manchester City,2,22,49,./images/Man-city.png
+Arsenal,3,23,49,./images/Arsenal.png
+Crystal Palace,14,23,24,./images/Palace.png
+Fulham,13,23,26,./images/Fulham.png
+Manchester United,6,23,38,./images/Man-utd.png
+Brentford,15,22,22,./images/Brentford.png
+Tottenham Hotspur,5,23,44,./images/Tottenham.png
+Bournemouth,12,22,27,./images/Bournemouth.png
+Chelsea,11,23,31,./images/Chelsea.png
+Liverpool,1,23,51,./images/Liverpool.png
+West Ham United,7,23,36,./images/West-ham.png
+Nottingham Forest,17,23,21,./images/Forest.png
+Everton,16,23,24,./images/Everton.png
+Sheffield United,20,23,10,./images/Sheffield.png
+Wolverhampton Wanderers,10,23,32,./images/Wolves.png
+Luton Town,18,22,20,./images/Luton.png
+Burnley,19,23,13,./images/Burnley.png
+Aston Villa,4,23,46,./images/Villa.png
+Newcastle United,7,24,36,./images/Newcastle.png
+Brighton And Hove Albion,9,24,35,./images/Brighton.png
+Manchester City,2,23,52,./images/Man-city.png
+Arsenal,3,24,52,./images/Arsenal.png
+Crystal Palace,15,24,24,./images/Palace.png
+Fulham,12,24,29,./images/Fulham.png
+Manchester United,6,24,41,./images/Man-utd.png
+Brentford,14,23,25,./images/Brentford.png
+Tottenham Hotspur,4,24,47,./images/Tottenham.png
+Bournemouth,13,23,27,./images/Bournemouth.png
+Chelsea,10,24,34,./images/Chelsea.png
+Liverpool,1,24,54,./images/Liverpool.png
+West Ham United,8,24,36,./images/West-ham.png
+Nottingham Forest,17,24,21,./images/Forest.png
+Everton,16,24,21,./images/Everton.png
+Sheffield United,20,24,13,./images/Sheffield.png
+Wolverhampton Wanderers,11,24,32,./images/Wolves.png
+Luton Town,18,23,20,./images/Luton.png
+Burnley,19,24,13,./images/Burnley.png
+Aston Villa,5,24,46,./images/Villa.png
+Newcastle United,8,25,37,./images/Newcastle.png
+Brighton And Hove Albion,7,25,38,./images/Brighton.png
+Manchester City,2,25,56,./images/Man-city.png
+Arsenal,3,25,55,./images/Arsenal.png
+Crystal Palace,15,25,25,./images/Palace.png
+Fulham,12,25,29,./images/Fulham.png
+Manchester United,6,25,44,./images/Man-utd.png
+Brentford,14,25,25,./images/Brentford.png
+Tottenham Hotspur,5,25,47,./images/Tottenham.png
+Bournemouth,13,24,28,./images/Bournemouth.png
+Chelsea,10,25,35,./images/Chelsea.png
+Liverpool,1,26,60,./images/Liverpool.png
+West Ham United,9,25,36,./images/West-ham.png
+Nottingham Forest,16,25,24,./images/Forest.png
+Everton,17,25,22,./images/Everton.png
+Sheffield United,20,25,13,./images/Sheffield.png
+Wolverhampton Wanderers,11,25,35,./images/Wolves.png
+Luton Town,18,25,20,./images/Luton.png
+Burnley,19,25,13,./images/Burnley.png
+Aston Villa,4,25,49,./images/Villa.png
+Newcastle United,10,26,37,./images/Newcastle.png
+Brighton And Hove Albion,7,26,39,./images/Brighton.png
+Manchester City,2,26,59,./images/Man-city.png
+Arsenal,3,26,58,./images/Arsenal.png
+Crystal Palace,13,26,28,./images/Palace.png
+Fulham,12,26,32,./images/Fulham.png
+Manchester United,6,26,44,./images/Man-utd.png
+Brentford,15,26,27,./images/Brentford.png
+Tottenham Hotspur,5,25,47,./images/Tottenham.png
+Bournemouth,14,25,28,./images/Bournemouth.png
+Chelsea,11,25,35,./images/Chelsea.png
+Liverpool,1,26,60,./images/Liverpool.png
+West Ham United,8,26,39,./images/West-ham.png
+Nottingham Forest,16,26,24,./images/Forest.png
+Everton,17,26,23,./images/Everton.png
+Sheffield United,20,26,13,./images/Sheffield.png
+Wolverhampton Wanderers,9,26,38,./images/Wolves.png
+Luton Town,18,25,20,./images/Luton.png
+Burnley,19,26,13,./images/Burnley.png
+Aston Villa,4,26,52,./images/Villa.png
+Newcastle United,8,27,40,./images/Newcastle.png
+Brighton And Hove Albion,9,27,39,./images/Brighton.png
+Manchester City,2,27,62,./images/Man-city.png
+Arsenal,3,27,61,./images/Arsenal.png
+Crystal Palace,14,27,28,./images/Palace.png
+Fulham,12,27,35,./images/Fulham.png
+Manchester United,6,27,44,./images/Man-utd.png
+Brentford,15,27,26,./images/Brentford.png
+Tottenham Hotspur,5,26,50,./images/Tottenham.png
+Bournemouth,13,26,31,./images/Bournemouth.png
+Chelsea,11,26,36,./images/Chelsea.png
+Liverpool,1,27,63,./images/Liverpool.png
+West Ham United,7,27,42,./images/West-ham.png
+Nottingham Forest,16,27,24,./images/Forest.png
+Everton,17,27,23,./images/Everton.png
+Sheffield United,20,27,13,./images/Sheffield.png
+Wolverhampton Wanderers,10,27,38,./images/Wolves.png
+Luton Town,18,26,20,./images/Luton.png
+Burnley,19,27,13,./images/Burnley.png
+Aston Villa,4,27,55,./images/Villa.png
+Newcastle United,10,28,40,./images/Newcastle.png
+Brighton And Hove Albion,8,28,42,./images/Brighton.png
+Manchester City,3,28,63,./images/Man-city.png
+Arsenal,1,28,64,./images/Arsenal.png
+Crystal Palace,14,28,29,./images/Palace.png
+Fulham,12,28,35,./images/Fulham.png
+Manchester United,6,28,47,./images/Man-utd.png
+Brentford,15,28,26,./images/Brentford.png
+Tottenham Hotspur,5,27,53,./images/Tottenham.png
+Bournemouth,13,28,35,./images/Bournemouth.png
+Chelsea,11,27,39,./images/Chelsea.png
+Liverpool,2,28,63,./images/Liverpool.png
+West Ham United,7,28,43,./images/West-ham.png
+Nottingham Forest,16,28,24,./images/Forest.png
+Everton,17,28,23,./images/Everton.png
+Sheffield United,20,28,14,./images/Sheffield.png
+Wolverhampton Wanderers,9,28,41,./images/Wolves.png
+Luton Town,18,28,21,./images/Luton.png
+Burnley,19,28,14,./images/Burnley.png
+Aston Villa,4,28,55,./images/Villa.png
+Newcastle United,10,28,40,./images/Newcastle.png
+Brighton And Hove Albion,8,28,42,./images/Brighton.png
+Manchester City,3,28,63,./images/Man-city.png
+Arsenal,1,28,64,./images/Arsenal.png
+Crystal Palace,14,28,29,./images/Palace.png
+Fulham,12,29,38,./images/Fulham.png
+Manchester United,6,28,47,./images/Man-utd.png
+Brentford,15,29,26,./images/Brentford.png
+Tottenham Hotspur,5,28,53,./images/Tottenham.png
+Bournemouth,13,28,35,./images/Bournemouth.png
+Chelsea,11,27,39,./images/Chelsea.png
+Liverpool,2,28,63,./images/Liverpool.png
+West Ham United,7,29,44,./images/West-ham.png
+Nottingham Forest,16,29,25,./images/Forest.png
+Everton,17,28,23,./images/Everton.png
+Sheffield United,20,28,14,./images/Sheffield.png
+Wolverhampton Wanderers,9,28,41,./images/Wolves.png
+Luton Town,18,29,22,./images/Luton.png
+Burnley,19,29,17,./images/Burnley.png
+Aston Villa,4,29,56,./images/Villa.png
+Newcastle United,8,29,43,./images/Newcastle.png
+Brighton And Hove Albion,9,29,42,./images/Brighton.png
+Manchester City,3,29,64,./images/Man-city.png
+Arsenal,2,29,65,./images/Arsenal.png
+Crystal Palace,14,29,30,./images/Palace.png
+Fulham,12,30,39,./images/Fulham.png
+Manchester United,6,29,48,./images/Man-utd.png
+Brentford,15,30,27,./images/Brentford.png
+Tottenham Hotspur,5,29,56,./images/Tottenham.png
+Bournemouth,13,29,38,./images/Bournemouth.png
+Chelsea,11,28,40,./images/Chelsea.png
+Liverpool,1,29,67,./images/Liverpool.png
+West Ham United,7,30,44,./images/West-ham.png
+Nottingham Forest,17,30,22,./images/Forest.png
+Everton,16,29,23,./images/Everton.png
+Sheffield United,20,29,15,./images/Sheffield.png
+Wolverhampton Wanderers,10,29,41,./images/Wolves.png
+Luton Town,18,30,22,./images/Luton.png
+Burnley,19,30,18,./images/Burnley.png
+Aston Villa,4,29,59,./images/Villa.png
+Newcastle United,8,30,44,./images/Newcastle.png
+Brighton And Hove Albion,9,30,43,./images/Brighton.png
+Manchester City,3,30,67,./images/Man-city.png
+Arsenal,2,30,68,./images/Arsenal.png
+Crystal Palace,14,30,30,./images/Palace.png
+Fulham,13,31,39,./images/Fulham.png
+Manchester United,6,30,48,./images/Man-utd.png
+Brentford,15,31,28,./images/Brentford.png
+Tottenham Hotspur,5,30,57,./images/Tottenham.png
+Bournemouth,12,30,41,./images/Bournemouth.png
+Chelsea,10,29,43,./images/Chelsea.png
+Liverpool,1,30,70,./images/Liverpool.png
+West Ham United,7,31,45,./images/West-ham.png
+Nottingham Forest,16,31,25,./images/Forest.png
+Everton,17,30,24,./images/Everton.png
+Sheffield United,20,30,15,./images/Sheffield.png
+Wolverhampton Wanderers,11,30,42,./images/Wolves.png
+Luton Town,18,31,22,./images/Luton.png
+Burnley,19,31,19,./images/Burnley.png
+Aston Villa,4,31,59,./images/Villa.png
+Newcastle United,8,31,47,./images/Newcastle.png
+Brighton And Hove Albion,10,31,43,./images/Brighton.png
+Manchester City,3,31,70,./images/Man-city.png
+Arsenal,1,31,71,./images/Arsenal.png
+Crystal Palace,14,31,30,./images/Palace.png
+Fulham,13,32,39,./images/Fulham.png
+Manchester United,6,31,49,./images/Man-utd.png
+Brentford,15,32,29,./images/Brentford.png
+Tottenham Hotspur,4,31,60,./images/Tottenham.png
+Bournemouth,12,31,41,./images/Bournemouth.png
+Chelsea,9,30,44,./images/Chelsea.png
+Liverpool,2,31,71,./images/Liverpool.png
+West Ham United,7,32,48,./images/West-ham.png
+Nottingham Forest,17,32,25,./images/Forest.png
+Everton,16,31,27,./images/Everton.png
+Sheffield United,20,31,16,./images/Sheffield.png
+Wolverhampton Wanderers,11,31,42,./images/Wolves.png
+Luton Town,18,32,25,./images/Luton.png
+Burnley,19,32,19,./images/Burnley.png
+Aston Villa,5,32,60,./images/Villa.png
+Newcastle United,6,32,50,./images/Newcastle.png
+Brighton And Hove Albion,10,32,44,./images/Brighton.png
+Manchester City,1,32,73,./images/Man-city.png
+Arsenal,2,32,71,./images/Arsenal.png
+Crystal Palace,14,32,33,./images/Palace.png
+Fulham,12,33,42,./images/Fulham.png
+Manchester United,7,32,50,./images/Man-utd.png
+Brentford,15,33,32,./images/Brentford.png
+Tottenham Hotspur,5,32,60,./images/Tottenham.png
+Bournemouth,13,32,42,./images/Bournemouth.png
+Chelsea,9,31,47,./images/Chelsea.png
+Liverpool,3,32,71,./images/Liverpool.png
+West Ham United,8,33,48,./images/West-ham.png
+Nottingham Forest,17,33,26,./images/Forest.png
+Everton,16,32,27,./images/Everton.png
+Sheffield United,20,32,16,./images/Sheffield.png
+Wolverhampton Wanderers,11,32,43,./images/Wolves.png
+Luton Town,18,33,25,./images/Luton.png
+Burnley,19,33,20,./images/Burnley.png
+Aston Villa,4,33,63,./images/Villa.png
+Newcastle United,7,33,50,./images/Newcastle.png
+Brighton And Hove Albion,11,33,44,./images/Brighton.png
+Manchester City,2,33,76,./images/Man-city.png
+Arsenal,1,34,77,./images/Arsenal.png
+Crystal Palace,14,34,39,./images/Palace.png
+Fulham,13,34,42,./images/Fulham.png
+Manchester United,6,33,53,./images/Man-utd.png
+Brentford,15,34,35,./images/Brentford.png
+Tottenham Hotspur,5,32,60,./images/Tottenham.png
+Bournemouth,10,34,45,./images/Bournemouth.png
+Chelsea,9,32,47,./images/Chelsea.png
+Liverpool,3,34,74,./images/Liverpool.png
+West Ham United,8,34,48,./images/West-ham.png
+Nottingham Forest,17,34,26,./images/Forest.png
+Everton,16,34,33,./images/Everton.png
+Sheffield United,20,34,16,./images/Sheffield.png
+Wolverhampton Wanderers,12,34,43,./images/Wolves.png
+Luton Town,18,34,25,./images/Luton.png
+Burnley,19,34,23,./images/Burnley.png
+Aston Villa,4,34,66,./images/Villa.png
+Newcastle United,7,34,53,./images/Newcastle.png
+Brighton And Hove Albion,12,34,44,./images/Brighton.png
+Manchester City,2,34,79,./images/Man-city.png
+Arsenal,1,35,80,./images/Arsenal.png
+Crystal Palace,14,35,40,./images/Palace.png
+Fulham,13,35,43,./images/Fulham.png
+Manchester United,6,34,54,./images/Man-utd.png
+Brentford,16,35,35,./images/Brentford.png
+Tottenham Hotspur,5,34,60,./images/Tottenham.png
+Bournemouth,10,35,48,./images/Bournemouth.png
+Chelsea,8,34,51,./images/Chelsea.png
+Liverpool,3,35,75,./images/Liverpool.png
+West Ham United,9,35,49,./images/West-ham.png
+Nottingham Forest,17,35,26,./images/Forest.png
+Everton,15,35,36,./images/Everton.png
+Sheffield United,20,35,16,./images/Sheffield.png
+Wolverhampton Wanderers,11,35,46,./images/Wolves.png
+Luton Town,18,35,25,./images/Luton.png
+Burnley,19,35,24,./images/Burnley.png
+Aston Villa,4,35,67,./images/Villa.png
+Newcastle United,6,35,56,./images/Newcastle.png
+Brighton And Hove Albion,11,35,47,./images/Brighton.png
+Manchester City,2,35,82,./images/Man-city.png
+Arsenal,1,36,83,./images/Arsenal.png
+Crystal Palace,14,36,43,./images/Palace.png
+Fulham,13,36,44,./images/Fulham.png
+Manchester United,8,35,54,./images/Man-utd.png
+Brentford,16,36,36,./images/Brentford.png
+Tottenham Hotspur,5,35,60,./images/Tottenham.png
+Bournemouth,10,36,48,./images/Bournemouth.png
+Chelsea,7,35,54,./images/Chelsea.png
+Liverpool,3,36,78,./images/Liverpool.png
+West Ham United,9,36,49,./images/West-ham.png
+Nottingham Forest,17,36,29,./images/Forest.png
+Everton,15,36,37,./images/Everton.png
+Sheffield United,20,36,16,./images/Sheffield.png
+Wolverhampton Wanderers,12,36,46,./images/Wolves.png
+Luton Town,18,36,26,./images/Luton.png
+Burnley,19,36,24,./images/Burnley.png
+Aston Villa,4,36,67,./images/Villa.png
+Newcastle United,7,37,57,./images/Newcastle.png
+Brighton And Hove Albion,10,37,48,./images/Brighton.png
+Manchester City,1,37,88,./images/Man-city.png
+Arsenal,2,37,86,./images/Arsenal.png
+Crystal Palace,12,37,46,./images/Palace.png
+Fulham,14,37,44,./images/Fulham.png
+Manchester United,8,37,57,./images/Man-utd.png
+Brentford,16,37,39,./images/Brentford.png
+Tottenham Hotspur,5,37,63,./images/Tottenham.png
+Bournemouth,11,37,48,./images/Bournemouth.png
+Chelsea,6,37,60,./images/Chelsea.png
+Liverpool,3,37,79,./images/Liverpool.png
+West Ham United,9,37,52,./images/West-ham.png
+Nottingham Forest,17,37,29,./images/Forest.png
+Everton,15,37,40,./images/Everton.png
+Sheffield United,20,37,16,./images/Sheffield.png
+Wolverhampton Wanderers,13,37,46,./images/Wolves.png
+Luton Town,18,37,26,./images/Luton.png
+Burnley,19,37,24,./images/Burnley.png
+Aston Villa,4,37,68,./images/Villa.png
+Newcastle United,7,38,60,./images/Newcastle.png
+Brighton And Hove Albion,11,38,48,./images/Brighton.png
+Manchester City,1,38,91,./images/Man-city.png
+Arsenal,2,38,89,./images/Arsenal.png
+Crystal Palace,10,38,49,./images/Palace.png
+Fulham,13,38,47,./images/Fulham.png
+Manchester United,8,38,60,./images/Man-utd.png
+Brentford,16,38,39,./images/Brentford.png
+Tottenham Hotspur,5,38,66,./images/Tottenham.png
+Bournemouth,12,38,48,./images/Bournemouth.png
+Chelsea,6,38,63,./images/Chelsea.png
+Liverpool,3,38,82,./images/Liverpool.png
+West Ham United,9,38,52,./images/West-ham.png
+Nottingham Forest,17,38,32,./images/Forest.png
+Everton,15,38,40,./images/Everton.png
+Sheffield United,20,38,16,./images/Sheffield.png
+Wolverhampton Wanderers,14,38,46,./images/Wolves.png
+Luton Town,18,38,26,./images/Luton.png
+Burnley,19,38,24,./images/Burnley.png
+Aston Villa,4,38,68,./images/Villa.png
